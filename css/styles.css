@@ -1,0 +1,142 @@
+/*FUENTES*/
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Russo One', sans-serif;
+*/
+
+body {
+    background-color: #F3F7F0;
+    font-size: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+p, a, figcaption {
+    font-size: 1.1rem;
+}
+
+h1 {
+    font-family: "Russo One";
+}
+
+h2, h3, p , figcaption, li {
+    font-family: 'Fira Sans';
+}
+
+
+
+
+
+footer p {
+    
+}
+
+/* MENU */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #50514F;
+    color: #F3F7F0;
+    padding: 2rem 3rem;   
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    width: 30rem;
+}
+
+.menu-item:link {
+    color: #F3F7F0;
+    text-decoration: none;
+}
+
+.menu-item:hover {
+    font-weight: bold;
+}
+
+
+/* HERO */
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url("../img/teclado_gamer.jpg");
+    height: 45rem;
+
+}
+
+.jumbotron p {
+    color: #F3F7F0;
+}
+
+h1 {
+    color: #FF715B;
+}
+
+/* PORTAFOLIO */
+.portafolio {
+    width: 100%;    
+}
+
+.portafolio h2, p {
+    padding: 2rem 2rem; 
+}
+
+.container div {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+figure {
+    
+}
+
+figure img {
+    width: 30rem;
+}
+
+figure figcaption {
+    text-align: center;
+    margin: 1rem 0;
+}
+
+/* SOBRE MI */
+.sobre_mi {
+    background-color: #50514F;
+    color: #F3F7F0;
+    padding: 2rem 3rem;   
+}
+
+.sobre_mi h2,h3,p {
+    padding: 1rem 2rem; 
+}
+
+/* CONTACTO */
+.contacto h2,p {
+    padding: 1rem 2rem; 
+}
+
+/* FOOTER */
+footer {
+    background-color: #50514F;
+    color: #F3F7F0;
+    padding: 2rem 3rem;   
+}
